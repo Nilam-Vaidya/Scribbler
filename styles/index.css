@@ -1,0 +1,90 @@
+
+body {
+    background-image:url("../images/background.jpg") ;
+    background-size: cover;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+   
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.postdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    align-content: center;
+    height: 80%;
+}
+
+.postbtn {
+    color: black;
+    background-color:orange ;
+    padding: 1%;
+    width: 10%;
+    font-weight: bold;
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.label ,
+.input {
+    margin-bottom: 10px;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.input {
+    padding:1%;
+}
+
+.submit-btn {
+    background-color: green;
+    color: white;
+    padding: 2%;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.get-started {
+    font-family: 'Courier New', Courier, monospace;
+    font-size:x-large;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+/* .formdiv {
+    height: 50%;
+}
+#my-signin-modal {
+    height: 100%;
+}
+.btndiv {
+    /* display: flex;
+    justify-content: space-between;
+    width: 15%; 
+    margin-top: -4%;
+ 
+ 
+}
+ */
+
+.scribblername {
+    /* font-family: 'Montez', cursive;
+    font-size: 40px;
+    color: blue; */
+    margin-top: -1%;
+        
+}
