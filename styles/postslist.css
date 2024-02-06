@@ -104,6 +104,10 @@ body {
     width: 70px;
     float: inline-end;
 }
+#post-five:nth-child(5){
+    grid-column: span 2;
+    width: 40%;
+}
 /* #post-five {
     margin-left: 200%;
     margin-right: 100%;
