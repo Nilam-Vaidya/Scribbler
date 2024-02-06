@@ -1,0 +1,3 @@
+[submodule "Scribbler"]
+    path = Scribbler
+    url = https://github.com/Nilam-Vaidya/Scribbler.git

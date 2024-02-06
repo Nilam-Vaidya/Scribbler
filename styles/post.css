@@ -1,0 +1,63 @@
+.everything {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.full-block {
+    margin: 0 30px 0 30px;
+}
+.nameandedit {
+    display: flex;
+    flex-direction: row;
+    /* display: grid; */
+    margin-bottom: 10px;
+    
+}
+.name {
+    float: inline-start;
+    width:95%;
+}
+.editbtndiv{
+    width: 5%;
+}
+.editbtn {  
+    background-color: red;
+    color: white;
+    width: 100%;
+    padding: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+.likebtn {
+    background-color: red;
+    color: white;
+    padding: 5px;
+    width: 5%;
+    cursor: pointer;
+    font-weight: bold;
+}
+.cmtbtn{
+    background-color: red;
+    color: white;
+    padding: 5px;
+    width: 5%;
+    cursor: pointer;
+    font-weight: bold;
+}
+.paragraph {
+    text-align: justify;
+    margin-bottom: 10px;
+    
+}
+.commentssection {
+    background-color: rgb(214, 206, 206);
+    width: 60%;
+    padding: 10px;
+}
+.comment {
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 10px;
+}
